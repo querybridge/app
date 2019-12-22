@@ -23,6 +23,7 @@ class Location(Product):
     Alpharetta = models.IntegerField(default=0)
     Buckhead = models.IntegerField(default=0)
     Marietta = models.IntegerField(default=0)
+    Central = models.IntegerField(default=0)
 
 class Wheel(Attribute, Location):
     sku = models.SlugField(default='1')
